@@ -1,0 +1,109 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200102101417_NewMigration.cs" />
+    <Compile Remove="Migrations\20200102101417_NewMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200102102924_InitialModel.cs" />
+    <Compile Remove="Migrations\20200102102924_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20200102104739_InititalMigration1.cs" />
+    <Compile Remove="Migrations\20200102104739_InititalMigration1.Designer.cs" />
+    <Compile Remove="Migrations\20200102110204_Init1.cs" />
+    <Compile Remove="Migrations\20200102110204_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102111938_Init1.cs" />
+    <Compile Remove="Migrations\20200102111938_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102113507_Init2.cs" />
+    <Compile Remove="Migrations\20200102113507_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102114153_Init3.cs" />
+    <Compile Remove="Migrations\20200102114153_Init3.Designer.cs" />
+    <Compile Remove="Migrations\20200102114814_Init2.cs" />
+    <Compile Remove="Migrations\20200102114814_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102115325_Init3.cs" />
+    <Compile Remove="Migrations\20200102115325_Init3.Designer.cs" />
+    <Compile Remove="Migrations\20200102115531_Init1.cs" />
+    <Compile Remove="Migrations\20200102115531_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102134123_Init2.cs" />
+    <Compile Remove="Migrations\20200102134123_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102134343_Init1.cs" />
+    <Compile Remove="Migrations\20200102134343_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102140630_Init2.cs" />
+    <Compile Remove="Migrations\20200102140630_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102145242_Init2.cs" />
+    <Compile Remove="Migrations\20200102145242_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102145559_Init.cs" />
+    <Compile Remove="Migrations\20200102145559_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200102145719_Init1.cs" />
+    <Compile Remove="Migrations\20200102145719_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102152343_Init2.cs" />
+    <Compile Remove="Migrations\20200102152343_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102152452_Init2.cs" />
+    <Compile Remove="Migrations\20200102152452_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102153040_Init3.cs" />
+    <Compile Remove="Migrations\20200102153040_Init3.Designer.cs" />
+    <Compile Remove="Migrations\20200102153221_Init4.cs" />
+    <Compile Remove="Migrations\20200102153221_Init4.Designer.cs" />
+    <Compile Remove="Migrations\20200102154039_Init5.cs" />
+    <Compile Remove="Migrations\20200102154039_Init5.Designer.cs" />
+    <Compile Remove="Migrations\20200102154640_Init1.cs" />
+    <Compile Remove="Migrations\20200102154640_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200102155241_Init2.cs" />
+    <Compile Remove="Migrations\20200102155241_Init2.Designer.cs" />
+    <Compile Remove="Migrations\20200102155543_Init3.cs" />
+    <Compile Remove="Migrations\20200102155543_Init3.Designer.cs" />
+    <Compile Remove="Migrations\20200102161150_Init1.cs" />
+    <Compile Remove="Migrations\20200102161150_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200103173731_migr1.cs" />
+    <Compile Remove="Migrations\20200103173731_migr1.Designer.cs" />
+    <Compile Remove="Migrations\20200103174248_migr2.cs" />
+    <Compile Remove="Migrations\20200103174248_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103181316_migr1.cs" />
+    <Compile Remove="Migrations\20200103181316_migr1.Designer.cs" />
+    <Compile Remove="Migrations\20200103182457_migr2.cs" />
+    <Compile Remove="Migrations\20200103182457_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103182640_migr2.cs" />
+    <Compile Remove="Migrations\20200103182640_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103182834_migr1.cs" />
+    <Compile Remove="Migrations\20200103182834_migr1.Designer.cs" />
+    <Compile Remove="Migrations\20200103183508_migr2.cs" />
+    <Compile Remove="Migrations\20200103183508_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103183837_migr2.cs" />
+    <Compile Remove="Migrations\20200103183837_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103184240_migr2.cs" />
+    <Compile Remove="Migrations\20200103184240_migr2.Designer.cs" />
+    <Compile Remove="Migrations\20200103185212_migr3.cs" />
+    <Compile Remove="Migrations\20200103185212_migr3.Designer.cs" />
+    <Compile Remove="Migrations\20200103185741_migr3.cs" />
+    <Compile Remove="Migrations\20200103185741_migr3.Designer.cs" />
+    <Compile Remove="Migrations\20200103190658_migr4.cs" />
+    <Compile Remove="Migrations\20200103190658_migr4.Designer.cs" />
+    <Compile Remove="Migrations\20200107100515_IdentityLinkAdd.cs" />
+    <Compile Remove="Migrations\20200107100515_IdentityLinkAdd.Designer.cs" />
+    <Compile Remove="Migrations\20200107124516_ClaimRefToModelAdd.cs" />
+    <Compile Remove="Migrations\20200107124516_ClaimRefToModelAdd.Designer.cs" />
+    <Compile Remove="Migrations\20200107131112_Init.cs" />
+    <Compile Remove="Migrations\20200107131112_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200107131952_Init1.cs" />
+    <Compile Remove="Migrations\20200107131952_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200107161350_Init1.cs" />
+    <Compile Remove="Migrations\20200107161350_Init1.Designer.cs" />
+    <Compile Remove="Migrations\20200111172343_UserModel_UserRolesFix.cs" />
+    <Compile Remove="Migrations\20200111172343_UserModel_UserRolesFix.Designer.cs" />
+    <Compile Remove="Migrations\20200111184441_Initial.cs" />
+    <Compile Remove="Migrations\20200111184441_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200111185500_Initial.cs" />
+    <Compile Remove="Migrations\20200111185500_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
